@@ -50,7 +50,7 @@
 
 
 
-                            <div class="col-lg-4 col-md-4 col-sm-12 nopadding <?php echo $bgoffsetbgno; ?> <?php echo $offset; ?>">
+                            <div class="col-lg-12 col-md-12 col-sm-12 nopadding <?php echo $bgoffsetbgno; ?> <?php echo $offset; ?>">
                                 <div class="loginbg loginradius login390">  
                                     <div class="form-top">
                                         <div class="form-top-left logowidth">

@@ -3493,9 +3493,9 @@ html.fullscreen-bg #wrapper {
 }
 
 .user-account .user-photo {
-    width: 50px;
+    width: 100%;
     vertical-align: top;
-    border: 2px solid var(--border-color)
+    /* border: 2px solid var(--border-color) */
 }
 
 .user-account .user-name {
@@ -3793,9 +3793,12 @@ label {
 .fancy-checkbox input[type="checkbox"]+span {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     cursor: pointer;
     position: relative
 }
@@ -3803,9 +3806,12 @@ label {
 .fancy-checkbox input[type="checkbox"]+span:before {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     position: relative;
     bottom: 1px;
     width: 24px;
@@ -3859,9 +3865,12 @@ label {
 .fancy-radio input[type="radio"]+span i {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -3965,9 +3974,12 @@ label {
 .multiselect-custom+.btn-group ul.multiselect-container>li>a label.checkbox:before {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     position: relative;
     bottom: 1px;
     content: "";
@@ -4013,9 +4025,12 @@ label {
 .multiselect-custom+.btn-group ul.multiselect-container>li>a label.radio:before {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -4340,9 +4355,12 @@ select.form-control:not([size]):not([multiple]) {
 .separator-linethrough span {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     padding: 0 10px;
     position: inherit;
     font-size: 18px;
@@ -4736,9 +4754,12 @@ select.form-control:not([size]):not([multiple]) {
 .panel-group .panel .panel-title>a.collapsed .icon-collapsed {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     vertical-align: baseline
 }
 
@@ -5147,9 +5168,12 @@ select.form-control:not([size]):not([multiple]) {
 .ct-legend li {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    vertical-align: auto;
+    zoom: 1;
+    display: inline;
+    /* *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
+    *display: inline; */
     position: relative;
     padding-left: 18px;
     margin-bottom: 3px;

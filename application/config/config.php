@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | a PHP script and you can easily do that on your own.
   |
  */
-$config['base_url'] = 'http://localhost/public_html/';
+$config['base_url'] = 'http://localhost/IqraSchool/';
 
 
 /*
@@ -513,6 +513,6 @@ $config['rewrite_short_tags'] = FALSE;
   | Array:		array('10.0.1.200', '192.168.5.0/24')
  */
 $config['routine_session'] = 16;
-$config['routine_update'] = 1705100400;
+$config['routine_update'] = 1705186800;
 $config['proxy_ips'] = '';
 $config['installed'] = true;

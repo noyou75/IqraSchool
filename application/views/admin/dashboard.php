@@ -168,13 +168,16 @@
         </button>
         <div class="sidebar-scroll">
           <div class="user-account">
-            <img
+            <!-- <img
               src="assets/images/user.png"
               class="rounded-circle user-photo"
               alt="User Profile Picture"
-            />
+            /> -->
+            <img class="user-photo"
+              alt="User Profile Picture" src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php $this->setting_model->getAdminlogo();?>" alt="<?php echo $this->customlib->getAppName() ?>" />
+
             <div class="dropdown">
-              <span>Welcome,</span>
+              <span>Welcoe,</span>
               <a
                 href="javascript:void(0);"
                 class="dropdown-toggle user-name"
